@@ -6,6 +6,12 @@ const ListComponent = ({ items, renderItem }) => {
       {items.map(renderItem)}
     </ul>
   );
+import React from 'react';
+
+const ListComponent = ({ items, renderItem }) => {
+  return <ul>{items.map(renderItem)}</ul>;
 };
+
+export default ListComponent;};
 
 export default ListComponent;
