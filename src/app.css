@@ -1,0 +1,60 @@
+/* App.css */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  color: #dc3545;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.post-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.post-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.post-item p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
+
+.no-items {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
